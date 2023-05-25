@@ -1,0 +1,92 @@
+/* Variáveis */
+
+:root {
+  --cor-0: #A10B00;
+  --cor-1: #ED1000;
+  --cor-black: #000;
+  --cor-white: #fff;
+  --cor-gray: #5b5b59;
+  --cor-light-gray: #b1afaf;
+  --font-links: 'Quicksand', sans-serif;
+  --font-padrao: 'Oxygen', sans-serif;
+  --font-title: 'Josefin Sans', sans-serif;
+}
+
+/* Config Globais */
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body * {
+  text-decoration: none;
+  list-style-type: none;
+  font-family: var(--font-padrao);
+}
+
+/* Header */
+
+.header {
+  background-color: var(--cor-gray);
+  display: flex;
+  flex-direction: column;
+  gap: 100px;
+}
+
+.menu ul {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding: 20px;
+}
+
+.menu ul li a {
+  color: var(--cor-white);
+  font-family: var(--font-links);
+  font-weight: bold;
+}
+
+.menu ul li a:hover {
+  text-decoration: underline;
+}
+
+/* Header Hero */
+
+.hero {
+  text-align: center;
+  padding-bottom: 50px;
+  color: var(--cor-white);
+}
+
+.hero h1 {
+  font-size: 50px;
+  font-family: var(--font-title);
+}
+
+.hero span {
+  font-size: 15px;
+  opacity: .7;
+}
+
+/* Body */
+
+.body {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 110px;
+}
+
+.queE {
+  background-color: var(--cor-light-gray);
+  padding: 50px 300px;
+  font-size: 23px;
+}
+
+.queE p {
+  width: 350px;
+  font-size: 18px;
+}
